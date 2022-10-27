@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WorldTraveler
 {
-    internal class Traveler :PlanetEarth
+    internal class Traveler 
     {
         public string TravelerName { get; set; }
         public int TravelerAge { get; set; }
@@ -30,7 +30,14 @@ namespace WorldTraveler
 
         public void CheckRecomendations()
         {
-            RecommendedContinents = ContinentNames;
+           
+            RecommendedContinents.Add("Asia");
+            RecommendedContinents.Add("Europe");
+            RecommendedContinents.Add("North-America");
+            RecommendedContinents.Add("Africa");
+            RecommendedContinents.Add("South-America");
+            RecommendedContinents.Add("Antarctica");
+            RecommendedContinents.Add("Australia");
             RecommendedContinents.Remove(From);
             if(TravelerAge <= 25)
             {

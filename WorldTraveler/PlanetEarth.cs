@@ -24,7 +24,7 @@ namespace WorldTraveler
             ContinentNames.Add("Africa");
             ContinentNames.Add("South-America");
             ContinentNames.Add("Antarctica");
-            ContinentNames.Add("Australia");
+            ContinentNames.Add("Oceania");
 
         }
         
